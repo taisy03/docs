@@ -1,0 +1,60 @@
+<svg width="800" height="320" viewBox="0 0 800 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="320" fill="#faf9f4"/>
+  <!-- registration crosses -->
+  <path d="M0 6h12M6 0v12" stroke="#8a8578" stroke-width="1"/>
+  <path d="M788 6h12M794 0v12" stroke="#8a8578" stroke-width="1"/>
+  <path d="M0 314h12M6 308v12" stroke="#8a8578" stroke-width="1"/>
+  <path d="M788 314h12M794 308v12" stroke="#8a8578" stroke-width="1"/>
+  <!-- label -->
+  <text x="20" y="24" font-family="'IBM Plex Mono', monospace" font-size="11" letter-spacing="0.08em" fill="#8a8578">FIG. 2 · GENERATION PIPELINE</text>
+  <!-- Step 1: Input -->
+  <text x="40" y="68" font-family="'IBM Plex Mono', monospace" font-size="10" letter-spacing="0.06em" fill="#555">INPUT</text>
+  <rect x="40" y="80" width="140" height="80" fill="#f3f1ec" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="110" y="106" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Focus prompt</text>
+  <text x="110" y="124" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">GitHub repos</text>
+  <text x="110" y="142" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Reference docs</text>
+  <path d="M180 120 L210 120" stroke="#d72638" stroke-width="1.5"/>
+  <polygon points="210,116 218,120 210,124" fill="#d72638"/>
+  <!-- Step 2: RAG Context -->
+  <text x="226" y="58" font-family="'IBM Plex Mono', monospace" font-size="10" letter-spacing="0.06em" fill="#555">RETRIEVAL</text>
+  <rect x="226" y="70" width="140" height="100" fill="#faf9f4" stroke="#111" stroke-width="1"/>
+  <rect x="226" y="70" width="140" height="22" fill="#111"/>
+  <text x="296" y="84" font-family="'IBM Plex Mono', monospace" font-size="9" letter-spacing="0.04em" fill="#fff" text-anchor="middle">RAG CONTEXT</text>
+  <text x="296" y="108" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Semantic search</text>
+  <text x="296" y="126" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Full-text search</text>
+  <text x="296" y="144" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Structural query</text>
+  <path d="M366 120 L396 120" stroke="#d72638" stroke-width="1.5"/>
+  <polygon points="396,116 404,120 396,124" fill="#d72638"/>
+  <!-- Step 3: Generation -->
+  <text x="412" y="58" font-family="'IBM Plex Mono', monospace" font-size="10" letter-spacing="0.06em" fill="#555">GENERATION</text>
+  <rect x="412" y="70" width="140" height="100" fill="#faf9f4" stroke="#111" stroke-width="1"/>
+  <rect x="412" y="70" width="140" height="22" fill="#d72638"/>
+  <text x="482" y="84" font-family="'IBM Plex Mono', monospace" font-size="9" letter-spacing="0.04em" fill="#fff" text-anchor="middle">LLM ENGINE</text>
+  <text x="482" y="108" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Brand voice</text>
+  <text x="482" y="126" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Context assembly</text>
+  <text x="482" y="144" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">Multi-model</text>
+  <path d="M552 120 L582 120" stroke="#d72638" stroke-width="1.5"/>
+  <polygon points="582,116 590,120 582,124" fill="#d72638"/>
+  <!-- Step 4: Output -->
+  <text x="598" y="68" font-family="'IBM Plex Mono', monospace" font-size="10" letter-spacing="0.06em" fill="#555">OUTPUT</text>
+  <rect x="598" y="80" width="160" height="80" fill="#faf9f4" stroke="#d8d4cb" stroke-width="1"/>
+  <rect x="598" y="80" width="22" height="80" fill="#d72638"/>
+  <text x="620" y="106" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555">Changelog</text>
+  <text x="620" y="124" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555">Slack message</text>
+  <text x="620" y="142" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555">LinkedIn post</text>
+  <!-- Channels at bottom -->
+  <text x="80" y="216" font-family="'IBM Plex Mono', monospace" font-size="10" letter-spacing="0.06em" fill="#555">SUPPORTED CHANNELS</text>
+  <rect x="80" y="228" width="120" height="32" fill="#f3f1ec" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="140" y="248" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">CHANGELOG</text>
+  <rect x="210" y="228" width="120" height="32" fill="#f3f1ec" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="270" y="248" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">SLACK</text>
+  <rect x="340" y="228" width="120" height="32" fill="#f3f1ec" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="400" y="248" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">LINKEDIN</text>
+  <rect x="470" y="228" width="120" height="32" fill="#f3f1ec" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="530" y="248" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">MINTLIFY</text>
+  <rect x="600" y="228" width="120" height="32" fill="#f3f1ec" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="660" y="248" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#555" text-anchor="middle">EMAIL</text>
+  <!-- reference -->
+  <rect x="80" y="276" width="120" height="22" fill="#f3f1ec" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="140" y="291" font-family="'IBM Plex Mono', monospace" font-size="8" fill="#8a8578" text-anchor="middle">REF_024.1</text>
+</svg>

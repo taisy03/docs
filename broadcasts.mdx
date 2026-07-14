@@ -1,0 +1,62 @@
+---
+title: "Broadcasts"
+description: "Generate publish-ready content from your institutional knowledge"
+---
+
+Broadcasts turn your organization's structured knowledge into publish-ready content across multiple channels.
+
+![Generation pipeline](/diagrams/pipeline.svg)
+
+## How it works
+
+<Steps>
+  <Step title="Define your focus">
+    Write a focus prompt describing what you want to broadcast — a feature launch, a team update, or a decision log. Noeome retrieves relevant context from your indexed knowledge graph.
+  </Step>
+  <Step title="Select sources">
+    Choose which context to include: GitHub repositories, Slack channels, uploaded documents, and Mintlify documentation sections. Each source provides grounding for the generated content.
+  </Step>
+  <Step title="Choose channels">
+    Select output channels for your broadcast:
+    - **Changelog** — internal release notes
+    - **Slack** — formatted Block Kit message
+    - **LinkedIn** — professional post
+    - **Mintlify** — documentation PR
+    - **Email** — Mailchimp campaign
+  </Step>
+  <Step title="Review and publish">
+    Review the generated content across all channels, make edits, and publish. Each channel gets content formatted for its platform.
+  </Step>
+</Steps>
+
+## Key Features
+
+<Card title="Multi-channel output" icon="bullhorn">
+  One broadcast generates content for changelogs, Slack, LinkedIn, Mintlify docs, and email campaigns — each formatted for its platform.
+</Card>
+<Card title="LLM-powered generation" icon="brain">
+  Uses OpenRouter to access multiple models (DeepSeek, Claude, GPT, Gemini, Llama, Mistral). Content is grounded in your organization's actual data.
+</Card>
+<Card title="Automated schedules" icon="clock">
+  Set up weekly, biweekly, or monthly broadcasts that run automatically. Optionally auto-publish or require human review before publishing.
+</Card>
+<Card title="Context-aware" icon="magnifying-glass">
+  Retrieved context includes semantic search over documents, full-text search, and structural queries against the knowledge graph. Content is never凭空 generated.
+</Card>
+
+## Models
+
+Noeome supports multiple LLM providers through OpenRouter:
+
+| Model | Provider | Use case |
+|-------|----------|----------|
+| DeepSeek | DeepSeek | Cost-effective generation |
+| Claude 3.5 | Anthropic | Complex technical content |
+| GPT-4o | OpenAI | General purpose |
+| Gemini 1.5 | Google | Long-form content |
+| Llama 3 | Meta | Open-source option |
+| Mistral Large | Mistral | European hosting |
+
+<Card title="Getting started" icon="rocket" href="/quickstart">
+  Create your first broadcast — upload documents and define a focus prompt
+</Card>

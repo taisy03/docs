@@ -23,8 +23,20 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "quickstart",
-          "Getting Started/broadcast-14th-july-2026"
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "broadcasts",
+          "integrations"
+        ]
+      },
+      {
+        "group": "Changelog",
+        "pages": [
+          "changelog/broadcast-14th-july-2026"
         ]
       }
     ],
