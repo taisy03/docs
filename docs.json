@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "Noeome",
   "colors": {
     "primary": "#d72638",
@@ -8,6 +8,15 @@
     "dark": "#b81f2f"
   },
   "favicon": "/favicon.svg",
+  "fonts": {
+    "family": "IBM Plex Sans",
+    "body": {
+      "family": "IBM Plex Sans"
+    },
+    "heading": {
+      "family": "Helvetica Neue, Helvetica, Arial, sans-serif"
+    }
+  },
   "navigation": {
     "pages": [
       {
