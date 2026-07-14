@@ -64,6 +64,10 @@
       {
         "label": "Contact",
         "href": "mailto:contact@noeome.com"
+      },
+      {
+        "label": "Book a call",
+        "href": "https://calendly.com/contact-noeome/new-meeting"
       }
     ],
     "primary": {
