@@ -1,47 +1,46 @@
 ---
 title: "Quickstart"
-description: "Begin with a guide on the fastest path to a successful outcome"
+description: "Get started with Noeome in minutes"
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
-
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
+Get started with Noeome by uploading your first document and exploring your organization's structured knowledge.
 
 ## Prerequisites
 
 Before you begin, you must have:
 
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
+- A Noeome account — sign up at [noeome.com](https://noeome.com)
+- Documents to upload (.mdx, .md, .txt, .pdf, .html, .docx)
 
 ## Get started
 
 <Steps>
-  <Step title="Install">
-    Describe how to install your product or sign up.
+  <Step title="Create an account">
+    Sign up at noeome.com using your work email.
 
     ```bash
-    npm install your-package
+    # Or via CLI if preferred
+    noeome-cli signup
     ```
   </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
+  <Step title="Upload documents">
+    Drag and drop files or use our API to add documents.
 
     ```bash
-    your-cli init
+    curl -X POST https://api.noeome.com/documents \
+      -H "Authorization: Bearer $TOKEN" \
+      -F "file=@meeting_notes.pdf"
     ```
   </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
+  <Step title="Explore insights">
+    Search across documents or view the knowledge graph.
 
     ```bash
-    your-cli start
+    noeome-cli search "Q2 strategy"
     ```
   </Step>
 </Steps>
 
 <Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
-
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
+  Need help? Join our Slack community or email [support@noeome.com](mailto:support@noeome.com).
 </Tip>
